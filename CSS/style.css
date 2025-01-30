@@ -38,9 +38,8 @@ header nav ul li a{
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
-
-
 }
+
 header .login{
     border-radius: 6px;
     background: #46a358;
@@ -142,12 +141,15 @@ main{
     justify-content: space-between;
 }
 .categories{
-
+    max-width: 310px;
  }
 .sidebar {
     background-color: #fbfbfb;
     margin: auto;
 
+}
+.sidebar img{
+    margin-left: -30px;
 }
 .categories-h3{
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
@@ -166,6 +168,8 @@ main{
 .sidebar ul li a{
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 400;
+    font-size: 15px;
+    line-height: 267%;
     color: #3d3d3d;
     text-decoration: none;
     margin-bottom: 50px;
@@ -173,9 +177,7 @@ main{
 }
 
 .sidebar ul li a:hover {
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 267%;
+    font-weight: 400;
     color: #46a358;
 }
 .topbar {
@@ -191,29 +193,22 @@ main{
     list-style: none;
     gap: 37px;
     justify-content: space-between;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 107%;
-    color: #3d3d3d;
-
 }
 
 .topbar ul li a{
     text-decoration: none;
-    align-items: center;
-    display: block;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #3d3d3d;
+    line-height: 107%;
     padding-bottom: 7px;
     margin-bottom: 7px;
 
 }
 .topbar ul li a:hover{
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 107%;
     color: #46a358;
     border-bottom: 2px solid #46a358;
-
 }
 
 .topbar p{
@@ -245,8 +240,12 @@ main{
     color: #46a358;
     margin-bottom: 7px;
 }
-.product {
+.product{
     margin-bottom: 70px;
+}
+.product img{
+    margin-bottom: 31px;
+
 }
 
 
