@@ -20,17 +20,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 header{
     margin-bottom: 12px;
     padding-top: 30px;
+}
+header .container {
+    border-bottom: 0.30px solid rgba(70, 163, 88, 0.5);
+    padding-bottom: 15px;
 }
 header nav ul{
     display: flex;
     align-items: center;
     list-style: none;
     gap: 50px;
+}
+header nav ul li{
+    position: relative;
 }
 header nav ul li a{
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
@@ -39,7 +45,81 @@ header nav ul li a{
     color: #3d3d3d;
     text-decoration: none;
 }
-
+header nav ul li a:before{
+    content: "";
+    display: block;
+    background-color: #46a358;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: -25px;
+    transition: 0.4s;
+}
+header nav ul li a:hover{
+    color: #3d3d3d;
+}
+header nav ul li a:hover:before{
+    width: 100%;
+}
+header nav ul li .dropdown{
+    content: "";
+    position: absolute;
+    display: none;
+    list-style: none;
+    top: 15px;
+    left: -60px;
+    padding-top: 41px;
+}
+header nav ul li .menu2{
+    content: "";
+    position: absolute;
+    display: none;
+    top: -143px;
+    left: 198px;
+    padding-top: 41px;
+}
+header nav ul li .dropdown a:before{
+    display: none;
+}
+header nav ul li .dropdown a{
+    padding: 7px 14px;
+    min-width: 168px;
+    display: inline-block;
+    background: #edf6ee;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    line-height: 20px;
+    transition: 0.3s;
+}
+header nav ul li .dropdown a:hover{
+    background-color: #1a712a;
+    color: white;
+}
+header nav ul li .dropdown li:last-of-type a:after{
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    background-image: url("../images/arowblack.svg");
+}
+header nav ul li .dropdown a:hover:after{
+    background-image: url("../images/arowwhite.svg");
+    transform: rotate(180deg);
+}
+header nav ul li.drop:hover .dropdown{
+    display: block;
+}
+header nav ul li.menu:hover .menu2{
+    display: block;
+}
+header nav ul li .dropdown .menu2 li a:after{
+    background-image: none;
+}
 header .login{
     border-radius: 6px;
     background: #46a358;
@@ -51,7 +131,7 @@ header .login{
     font-size: 16px;
     color: #fff;
     text-decoration: none;
-
+    transition: 0.5s;
 }
 header .login svg{
     margin-right: 4px;
@@ -62,21 +142,19 @@ header .login svg path{
 header .login:hover{
     background-color: white;
     color: #46a358;
-
 }
 header .login:hover svg path{
     stroke: #46a358;
 }
-
 .banner{
-    max-width: 1200px;
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
 
-}
-.banner article{
-    max-width: 557px;
-}
 .h3{
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 500;
@@ -87,7 +165,6 @@ header .login:hover svg path{
     color: #3d3d3d;
     margin-bottom: 7px;
 }
-
 h1{
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 900;
@@ -111,7 +188,7 @@ h1 span{
 .shop-now{
     border-radius: 6px;
     background: #46a358;
-    padding: 11px 9px;
+    padding: 9px 27px;
     align-items: center;
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 700;
@@ -120,50 +197,40 @@ h1 span{
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
-    height: 40px;
-
 }
-.container .shop-now:hover {
+.banner .shop-now:hover {
     background: none;
     color: #46a358;
+    transition: 0.4s;
 }
-.banner .container{
-    padding-left: 40px;
-}
-main{
-    margin-bottom: 26px;
-}
-
-.shop-list{
-    display: flex;
+.shop-list {
     max-width: 1200px;
     margin: auto;
+    display: flex;
     justify-content: space-between;
+    align-items: start;
+    padding-bottom: 94px;
 }
-.categories{
-    max-width: 310px;
- }
-.sidebar {
+.sidebar{
     background-color: #fbfbfb;
-    margin: auto;
-
+    max-width: 310px;
 }
 .sidebar img{
     margin-left: -30px;
 }
-.categories-h3{
+.sidebar-h3{
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
-    padding-left: 18px;
+    margin: 18px 14px 7px ;
+
 }
 .sidebar ul{
     list-style: none;
-    padding-left: 30px;
-    margin-bottom: 70px;
-
+    margin-left: 30px;
+    margin-bottom: 377px;
 }
 .sidebar ul li a{
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
@@ -172,20 +239,21 @@ main{
     line-height: 267%;
     color: #3d3d3d;
     text-decoration: none;
-    margin-bottom: 50px;
-
 }
-
 .sidebar ul li a:hover {
-    font-weight: 400;
     color: #46a358;
 }
-.topbar {
+.card-products{
+    max-width: 840px;
+}
+.topbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 31px;
     height: 23px;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-size: 15px;
 }
 .topbar ul{
     display: flex;
@@ -194,35 +262,28 @@ main{
     gap: 37px;
     justify-content: space-between;
 }
-
 .topbar ul li a{
     text-decoration: none;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 700;
-    font-size: 15px;
     color: #3d3d3d;
     line-height: 107%;
     padding-bottom: 7px;
     margin-bottom: 7px;
-
 }
 .topbar ul li a:hover{
     color: #46a358;
     border-bottom: 2px solid #46a358;
 }
-
 .topbar p{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 400;
-    font-size: 15px;
     line-height: 107%;
     color: #3d3d3d;
 }
-
-.products {
+.products{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 90px;
 }
 .products h4{
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
@@ -232,7 +293,7 @@ main{
     color: #3d3d3d;
     margin-bottom: 7px;
 }
-.products p{
+.products p {
     font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -240,15 +301,407 @@ main{
     color: #46a358;
     margin-bottom: 7px;
 }
-.product{
+.product {
     margin-bottom: 70px;
+position: relative;
+}
+.img .discount{
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    background: #46a358;
+    padding: 9px 7px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 14px;
+}
+.img{
+    background-color: #fbfbfb;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.img:hover{
+    border-top: solid 1px #46a358;
+    position: relative;
+}
+.img .position{
+    display: none;
+    margin-left: 67px;
+}
+.img ul{
+    list-style: none;
+    display: inline-block;
+}
+.img ul li{
+    display: inline-block;
+}
+.img .position li svg{
+    border-radius: 4px;
+    background: #fff;
+    padding: 7px 8px;
+}
+.img .position svg:before{
+    display: none;
+}
+.img ul li svg:hover path{
+    fill: #46a358;
+}
+.product .img:hover .position{
+    display: block;
+}
+.position{
+    position: absolute;
+    border-radius: 4px;
+    display: inline-block;
+    bottom: 7px;
+    gap:26px;
 }
 .product img{
-    margin-bottom: 31px;
-
+    margin-bottom: 25px;
+    margin-top: 25px;
+    mix-blend-mode: multiply;
+}
+.pages{
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 94px;
+}
+.pages ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    justify-content: end;
+}
+.pages a{
+    text-decoration: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    align-items: center;
+    padding: 10px 9px;
+    color: #3d3d3d;
 }
 
-
-
-
-
+.pages a:hover{
+    color: #ffff;
+    transition: 0.4s;
+    background: #46a358;
+}
+.pages a:hover svg path {
+    stroke: #ffff;
+}
+.text{
+    margin-right: 30px;
+    text-align: end;
+}
+.find-m {
+    border-radius: 6px;
+    background: #46a358;
+    padding: 9px 47px;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    gap: 2px;
+    max-width: 100%;
+}
+.find-m:hover{
+    background-color:#fbfbfb;
+    color: #46a358;
+}
+.find-m:hover svg path{
+    stroke: #46a358;
+}
+.container2{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.find-block{
+    display: flex;
+    content: "";
+    max-width: 586px;
+    background: #fbfbfb;
+    position: relative;
+    margin-bottom: 138px;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+}
+.find-block img {
+    position: absolute;
+    bottom: 10px;
+    mix-blend-mode: multiply;
+}
+.text{
+    margin-top: 37px;
+    margin-left: 30px;
+    margin-bottom: 46px;
+    align-items: end;
+}
+.find-block h5{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+}
+.find-block p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    margin-bottom: 25px;
+}
+.container-blog{
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.container-blog{
+    margin-bottom: 100px;
+}
+.container-blog h4{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+}
+.container-blog p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 35px;
+}
+.blog {
+    max-width: 268px;
+    background: #fbfbfb;
+    text-align: left;
+}
+.blog p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    padding-left: 15px;
+    margin-bottom: 9px;
+}
+.blog h5{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    padding-left: 15px;
+    margin-bottom: 4px;
+}
+.blog h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    padding-left: 15px;
+    margin-bottom: 4px;
+}
+.blog a{
+    text-decoration: none;
+    margin-bottom: 14px;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+}
+.blog a svg{
+    align-items: end;
+}
+.arrow{
+    display: flex;
+    gap: 3px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+}
+.arrow svg{
+    padding-top: 1px;
+}
+.arrow:hover{
+    color: #46a358;
+}
+.arrow:hover svg path{
+    fill: #46a358;
+}
+.text{
+margin-left: 261px;
+}
+.content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fbfbfb;
+}
+footer .container{
+    background: #fbfbfb;
+    border-bottom: 0.30px solid rgba(70, 163, 88, 0.2);
+    margin-bottom: 6px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+.box h5{
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+    margin-bottom: 9px;
+}
+.box p {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    margin-right: 61px;
+}
+.email-container{
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    max-width: 354px;
+}
+.email-container form{
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+}
+.email-container h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 25px;
+}
+.email-container p{
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #727272;
+}
+.email{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #acacac;
+    border-radius: 6px 0 0 6px;
+    padding: 12px 86px 12px 12px;
+    border: none;
+    position: relative;
+}
+.join{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    background: #46a358;
+    border-radius: 0 6px 6px 0;
+    padding: 12px 25px;
+    margin-right: 25px;
+    position: absolute;
+    border: none;
+}
+.color{
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+}
+.color img{
+    margin-left: 23px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-right: 19px;
+    margin-bottom: 19px;
+    margin-top: 25px;
+}
+.media{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.aside{
+    margin-left: 25px;
+    margin-top: 33px;
+}
+footer .container:last-of-type .aside{
+    margin-right: 130px;
+}
+.aside p{
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 8px;
+}
+.aside .social{
+    margin-bottom: 20px;
+}
+.aside .media{
+    margin-bottom: 33px;
+}
+.aside .accept{
+    margin-bottom: 13px;
+}
+.aside ul {
+    list-style: none;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+}
+.aside ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+}
+.aside ul li{
+    margin-bottom: 8px;
+}
+.media svg:last-of-type{
+    border: 1px solid rgba(70, 163, 88, 0.2);
+    border-radius: 4px;
+    padding: 8px 6px;
+}
+footer .last{
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-align: center;
+}
