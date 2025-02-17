@@ -1,13 +1,25 @@
 @font-face {
-    font-family: '../fonts/fontspring_demo_-_cera_proRg';
-    src: url('../fonts/fontspring-demo-cerapro-regular-webfont.eot');
-    src: url('../fonts/fontspring-demo-cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/fontspring-demo-cerapro-regular-webfont.woff2') format('woff2'),
-    url('../fonts/fontspring-demo-cerapro-regular-webfont.woff') format('woff'),
-    url('../fonts/fontspring-demo-cerapro-regular-webfont.ttf') format('truetype'),
-    url('../fonts/fontspring-demo-cerapro-regular-webfont.svg#fontspring_demo_-_cera_proRg') format('svg');
+    font-family: 'cera_proregular';
+    src: url('../fonts/cerapro-regular-webfont.eot');
+    src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+    url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: 'cera_problack';
+    src: url('../fonts/cerapro-black-webfont.eot');
+    src: url('../fonts/cerapro-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-black-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-black-webfont.woff') format('woff'),
+    url('../fonts/cerapro-black-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-black-webfont.svg#cera_problack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 *{
@@ -39,7 +51,7 @@ header nav ul li{
     position: relative;
 }
 header nav ul li a{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
@@ -86,16 +98,16 @@ header nav ul li .dropdown a{
     min-width: 168px;
     display: inline-block;
     background: #edf6ee;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
     line-height: 20px;
-    transition: 0.3s;
 }
 header nav ul li .dropdown a:hover{
     background-color: #1a712a;
     color: white;
+    transition: 0.7s;
 }
 header nav ul li .dropdown li:last-of-type a:after{
     content: "";
@@ -107,7 +119,7 @@ header nav ul li .dropdown li:last-of-type a:after{
     top: 12px;
     background-image: url("../images/arowblack.svg");
 }
-header nav ul li .dropdown a:hover:after{
+header nav ul li .dropdown li a:hover:after{
     background-image: url("../images/arowwhite.svg");
     transform: rotate(180deg);
 }
@@ -126,7 +138,7 @@ header .login{
     padding: 7px 17px;
     display: flex;
     align-items: center;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -156,7 +168,7 @@ header .login:hover svg path{
 }
 
 .h3{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -166,7 +178,7 @@ header .login:hover svg path{
     margin-bottom: 7px;
 }
 h1{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_problack', sans-serif;
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
@@ -178,7 +190,7 @@ h1 span{
     color: #46a358;
 }
 .text-banner{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -190,7 +202,7 @@ h1 span{
     background: #46a358;
     padding: 9px 27px;
     align-items: center;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -201,7 +213,7 @@ h1 span{
 .banner .shop-now:hover {
     background: none;
     color: #46a358;
-    transition: 0.4s;
+    transition-duration: 0.7s;
 }
 .shop-list {
     max-width: 1200px;
@@ -219,7 +231,7 @@ h1 span{
     margin-left: -30px;
 }
 .sidebar-h3{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
@@ -233,7 +245,7 @@ h1 span{
     margin-bottom: 377px;
 }
 .sidebar ul li a{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 267%;
@@ -242,6 +254,9 @@ h1 span{
 }
 .sidebar ul li a:hover {
     color: #46a358;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
 }
 .card-products{
     max-width: 840px;
@@ -252,7 +267,7 @@ h1 span{
     align-items: center;
     margin-bottom: 31px;
     height: 23px;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-size: 15px;
 }
 .topbar ul{
@@ -286,27 +301,26 @@ h1 span{
     margin-bottom: 90px;
 }
 .products h4{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     color: #3d3d3d;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
 }
 .products p {
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #46a358;
-    margin-bottom: 7px;
 }
 .product {
     margin-bottom: 70px;
-position: relative;
+    position: relative;
 }
 .img .discount{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -321,6 +335,7 @@ position: relative;
     background-color: #fbfbfb;
     margin-bottom: 12px;
     overflow: hidden;
+    border-top: solid 1px transparent;
 }
 
 .img:hover{
@@ -360,12 +375,13 @@ position: relative;
     gap:26px;
 }
 .product img{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-top: 25px;
     mix-blend-mode: multiply;
+
 }
 .pages{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 89%;
@@ -386,6 +402,8 @@ position: relative;
     align-items: center;
     padding: 10px 9px;
     color: #3d3d3d;
+    transition: width 3s;
+    transition-delay: 1s;
 }
 
 .pages a:hover{
@@ -402,9 +420,8 @@ position: relative;
 }
 .find-m {
     border-radius: 6px;
-    background: #46a358;
     padding: 9px 47px;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
@@ -413,9 +430,17 @@ position: relative;
     display: inline-flex;
     gap: 2px;
     max-width: 100%;
+    background: #46a358;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: background-color 0.7s ease-out;
+    -moz-transition: background-color 0.7s ease-out;
+    -o-transition: background-color 0.7s ease-out;
+    transition: background-color 0.7s ease-out;
 }
 .find-m:hover{
     background-color:#fbfbfb;
+    cursor: pointer;
     color: #46a358;
 }
 .find-m:hover svg path{
@@ -433,7 +458,7 @@ position: relative;
     background: #fbfbfb;
     position: relative;
     margin-bottom: 138px;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
 }
 .find-block img {
     position: absolute;
@@ -447,6 +472,7 @@ position: relative;
     align-items: end;
 }
 .find-block h5{
+    font-family: 'cera_probold', sans-serif;
     font-weight: 900;
     font-size: 18px;
     line-height: 133%;
@@ -463,7 +489,7 @@ position: relative;
     margin-bottom: 25px;
 }
 .container-blog{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     text-align: center;
     max-width: 1200px;
     margin: auto;
@@ -499,6 +525,7 @@ position: relative;
     margin-bottom: 9px;
 }
 .blog h5{
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -538,6 +565,7 @@ position: relative;
 }
 .arrow:hover{
     color: #46a358;
+    transition: 0.4s;
 }
 .arrow:hover svg path{
     fill: #46a358;
@@ -564,37 +592,61 @@ footer .container{
     align-items: center;
     margin: 25px;
 }
-.box h5{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+.box-container img{
+    margin-bottom: 15px;
+}
+.box-container h5{
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 17px;
     line-height: 94%;
     color: #3d3d3d;
     margin-bottom: 9px;
 }
-.box p {
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+.box-container p{
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 157%;
     color: #727272;
     margin-right: 61px;
 }
+.box-container .box1{
+    position: relative;
+}
+.box-container .box1:after{
+    content: "";
+    width: 187px;
+    height: 1px;
+    background: rgba(70, 163, 88, 0.1);
+    transform: rotate(90deg);
+    position: absolute;
+    left: 139px;
+    bottom: 101px;
+}
+.box-container .box1:before{
+    content: "";
+    width: 187px;
+    height: 1px;
+    background: rgba(70, 163, 88, 0.1);
+    transform: rotate(90deg);
+    position: absolute;
+    right: 204px;
+    bottom: 101px;
+}
+
 .email-container{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     max-width: 354px;
 }
-.email-container form{
-    background: #fff;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
-    border-radius: 6px;
-}
 .email-container h5{
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
     margin-bottom: 25px;
+    margin-top: 13px;
 }
 .email-container p{
     margin-top: 18px;
@@ -603,15 +655,24 @@ footer .container{
     line-height: 169%;
     color: #727272;
 }
+.input{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    border-radius: 6px;
+    max-width: 354px;
+    overflow: hidden;
+}
 .email{
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
     color: #acacac;
+    background: transparent;
     border-radius: 6px 0 0 6px;
-    padding: 12px 86px 12px 12px;
+    padding: 12px 86px 12px  12px;
     border: none;
-    position: relative;
 }
 .join{
     font-weight: 700;
@@ -621,9 +682,8 @@ footer .container{
     background: #46a358;
     border-radius: 0 6px 6px 0;
     padding: 12px 25px;
-    margin-right: 25px;
-    position: absolute;
     border: none;
+    cursor: pointer;
 }
 .color{
     max-width: 1200px;
@@ -632,7 +692,7 @@ footer .container{
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 157%;
@@ -641,10 +701,37 @@ footer .container{
 .color img{
     margin-left: 23px;
 }
-.phone{
+.address{
     display: flex;
     align-items: center;
     gap: 9px;
+    margin-right: 19px;
+    margin-bottom: 19px;
+    margin-top: 25px;
+    text-align: start;
+}
+.address:before{
+    content: url("../images/address.svg");
+}
+.contact{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 19px;
+    margin-top: 25px;
+}
+.contact:before{
+    content: url("../images/email.svg");
+    margin-top: 8px;
+}
+.phone:before{
+    content: url("../images/phone.svg");
+    margin-top: 8px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin-right: 19px;
     margin-bottom: 19px;
     margin-top: 25px;
@@ -652,17 +739,17 @@ footer .container{
 .media{
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
 }
 .aside{
+    font-family: 'cera_proregular', sans-serif;
     margin-left: 25px;
     margin-top: 33px;
 }
 footer .container:last-of-type .aside{
     margin-right: 130px;
 }
-.aside p{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+.aside .text-list{
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
@@ -670,35 +757,39 @@ footer .container:last-of-type .aside{
     margin-bottom: 8px;
 }
 .aside .social{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
     margin-bottom: 20px;
 }
 .aside .media{
     margin-bottom: 33px;
 }
 .aside .accept{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
     margin-bottom: 13px;
 }
 .aside ul {
     list-style: none;
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    margin-bottom: 29px;
 }
-.aside ul li a{
+.aside .list li a{
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 214%;
     color: #3d3d3d;
+    margin-bottom: 7px;
 }
-.aside ul li{
-    margin-bottom: 8px;
-}
-.media svg:last-of-type{
-    border: 1px solid rgba(70, 163, 88, 0.2);
-    border-radius: 4px;
-    padding: 8px 6px;
+.aside img {
+    mix-blend-mode: multiply;
 }
 footer .last{
-    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 214%;
