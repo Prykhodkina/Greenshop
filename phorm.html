@@ -2,38 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>Registration</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/style1.css">
+    <link rel="stylesheet" href="loader.css">
 
 </head>
 <body>
 <div class="form-container">
-<img src="images/X.png" alt="png">
-    <h2>Login <span>Registration</span></h2>
-
-<p class="text">Enter your email and password to register</p>
-
-<form name="" action="" method="post">
-  <div class="input-container">
-    <input class="login-container" type="text" placeholder="Username" name="Username" id="text" required>
-      <input class="login-container" type="email" placeholder="Enter your email address" name="email" id="email" required>
-      <input class="login-container" type="password" placeholder="Password" name="psw" id="psw" required>
-      <input class="login-container" type="password" placeholder="Confirm password" name="psw-repeat" id="psw-repeat" required>
-     </div>
-
-  <div>
-    <button type="submit" class="registered">Register</button>
-  </div>
-</form>
-
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.170067 0.170067C0.396823 -0.056689 0.764467 -0.056689 0.991223 0.170067L6 5.17884L11.0088 0.170067C11.2355 -0.056689 11.6032 -0.056689 11.8299 0.170067C12.0567 0.396823 12.0567 0.764467 11.8299 0.991223L6.82116 6L11.8299 11.0088C12.0567 11.2355 12.0567 11.6032 11.8299 11.8299C11.6032 12.0567 11.2355 12.0567 11.0088 11.8299L6 6.82116L0.991223 11.8299C0.764467 12.0567 0.396823 12.0567 0.170067 11.8299C-0.056689 11.6032 -0.056689 11.2355 0.170067 11.0088L5.17884 6L0.170067 0.991223C-0.056689 0.764467 -0.056689 0.396823 0.170067 0.170067Z" fill="#46A358" />
+    </svg>
+    <h2 class="h2">Login
+        <span>Register</span></h2>
+    <p class="text-form">Enter your email and password to register</p>
+    <form class="input-container" name="" action="" method="post">
+        <input class="login-container" type="text" placeholder="Username" name="Username" id="text" required>
+        <input class="login-container" type="email" placeholder="Enter your email address" name="email" id="email" required>
+        <input class="login-container" type="password" placeholder="Password" name="psw" id="psw" required>
+        <input class="login-container" type="password" placeholder="Confirm password" name="psw-repeat" id="psw-repeat" required>
+        <button type="submit" class="registered">Register</button>
+    </form>
     <p class="account-options">Or register with </p>
-    <a class="btn" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Duk&ec=GAlA8wE&hl=uk&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1225626081%3A1735420432983405&ddm=1" target="_blank">
-        <img src="images/Group.svg" alt="logo">Continue with Google</a>
-    <a class="btn" href="https://www.facebook.com/?locale=uk_UA" target="_blank">
-        <img src="images/Vector.svg" alt="logo">Continue with Facebook</a>
-
+    <div class="register-with">
+        <a class="social" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Duk&ec=GAlA8wE&hl=uk&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1225626081%3A1735420432983405&ddm=1" target="_blank">
+            <img src="images/Group.svg" alt="logo">Continue with Google</a>
+        <a class="social" href="https://www.facebook.com/?locale=uk_UA" target="_blank">
+            <img src="images/Vector.svg" alt="logo">Continue with Facebook</a>
+    </div>
+    <span class="loader"></span>
 
 </div>
 </body>
