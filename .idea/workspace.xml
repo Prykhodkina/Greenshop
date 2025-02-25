@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2cfcc3ff-51cc-4bb3-af62-d09c97a3f46f" name="Changes" comment="correction6" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Sass File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Prykhodkina&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Prykhodkina/Greenshop.git&quot;,
+    &quot;accountId&quot;: &quot;2b6fcf39-9184-4b15-8637-1a727c8a248b&quot;
+  }
+}</component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="file:CSS//*.scss" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2qqgRclPj3oNQTzASwz5MFSDHs9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/toria/OneDrive/Робочий стіл/Greenshop&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTML&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\toria\PhpstormProjects\Greenshop\Greenshop" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/phorm.html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PS-243.24978.50" />
+        <option value="bundled-php-predefined-a98d8de5180a-fbeb0b58ac0f-com.jetbrains.php.sharedIndexes-PS-243.24978.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cfcc3ff-51cc-4bb3-af62-d09c97a3f46f" name="Changes" comment="" />
+      <created>1735395511613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735395511613</updated>
+      <workItem from="1735395512666" duration="4156000" />
+      <workItem from="1735412382730" duration="26000" />
+      <workItem from="1735412468966" duration="105000" />
+      <workItem from="1735412588764" duration="5728000" />
+      <workItem from="1735508928620" duration="20473000" />
+      <workItem from="1735998571357" duration="5604000" />
+      <workItem from="1736186274815" duration="4908000" />
+      <workItem from="1736191702905" duration="222000" />
+      <workItem from="1736192110517" duration="37000" />
+      <workItem from="1736192634170" duration="11000" />
+      <workItem from="1736443203247" duration="2630000" />
+      <workItem from="1736514383765" duration="4116000" />
+      <workItem from="1736522850677" duration="3111000" />
+      <workItem from="1737049183506" duration="13725000" />
+      <workItem from="1737573749133" duration="3355000" />
+      <workItem from="1737975686181" duration="72000" />
+      <workItem from="1737975837696" duration="5367000" />
+      <workItem from="1737997991871" duration="3908000" />
+      <workItem from="1738150960189" duration="5956000" />
+      <workItem from="1738182410830" duration="16649000" />
+      <workItem from="1738257514412" duration="14331000" />
+      <workItem from="1738413496510" duration="12194000" />
+      <workItem from="1738599712547" duration="43938000" />
+      <workItem from="1739038641766" duration="35707000" />
+      <workItem from="1739294374526" duration="82334000" />
+      <workItem from="1739715398391" duration="41683000" />
+      <workItem from="1739969503350" duration="4619000" />
+      <workItem from="1740058850250" duration="3851000" />
+      <workItem from="1740063392023" duration="6736000" />
+      <workItem from="1740082760698" duration="697000" />
+      <workItem from="1740134794369" duration="2479000" />
+      <workItem from="1740141568499" duration="4929000" />
+      <workItem from="1740228806536" duration="4763000" />
+      <workItem from="1740241987279" duration="1771000" />
+      <workItem from="1740249435903" duration="856000" />
+      <workItem from="1740250354986" duration="6846000" />
+      <workItem from="1740423507760" duration="729000" />
+      <workItem from="1740501438634" duration="294000" />
+    </task>
+    <task id="LOCAL-00001" summary="Greenshop">
+      <option name="closed" value="true" />
+      <created>1736522175077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736522175077</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Dz7">
+      <option name="closed" value="true" />
+      <created>1738246365008</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738246365016</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dz7 correction">
+      <option name="closed" value="true" />
+      <created>1738249427482</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738249427482</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Dz8 correction">
+      <option name="closed" value="true" />
+      <created>1739456358128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739456358128</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dz11-12 correction">
+      <option name="closed" value="true" />
+      <created>1739804181420</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739804181420</updated>
+    </task>
+    <task id="LOCAL-00006" summary="correction">
+      <option name="closed" value="true" />
+      <created>1740423559516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740423559516</updated>
+    </task>
+    <task id="LOCAL-00007" summary="correction6">
+      <option name="closed" value="true" />
+      <created>1740501464952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740501464952</updated>
+    </task>
+    <task id="LOCAL-00008" summary="correction6">
+      <option name="closed" value="true" />
+      <created>1740501657825</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740501657825</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Greenshop" />
+    <MESSAGE value="Dz7" />
+    <MESSAGE value="Dz7 correction" />
+    <MESSAGE value="Dz8 correction" />
+    <MESSAGE value="Dz11-12 correction" />
+    <MESSAGE value="correction" />
+    <MESSAGE value="correction6" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction6" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
