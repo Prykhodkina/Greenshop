@@ -241,25 +241,20 @@
 }
 .find-block{
     display: flex;
-    content: "";
     max-width: 586px;
     background: #fbfbfb;
-    position: relative;
     margin-bottom: 138px;
     font-family: 'cera_proregular', sans-serif;
 }
 .find-block img {
-    position: absolute;
-    bottom: 10px;
     mix-blend-mode: multiply;
 }
-.container .owl-carousel img{
-    width: 282px;
-    height: 292px;
+.container .owl-carousel .find-block img{
+    width: 143px;
+    height: 146px;
 }
 .text{
     margin-top: 37px;
-    margin-left: 30px;
     margin-bottom: 46px;
     align-items: end;
 }
@@ -362,9 +357,7 @@
 .arrow:hover svg path{
     fill: #46a358;
 }
-.text{
-margin-left: 261px;
-}
+
 .content{
     max-width: 1200px;
     margin: auto;
