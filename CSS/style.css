@@ -249,9 +249,9 @@
 .find-block img {
     mix-blend-mode: multiply;
 }
-.container .owl-carousel .find-block img{
-    width: 143px;
-    height: 146px;
+.container .owl-carousel img{
+    width: 287px;
+    height:292px;
 }
 .text{
     margin-top: 37px;
