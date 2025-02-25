@@ -8,6 +8,7 @@ $maine_font:'cera_proregular', sans-serif;
     @content;
 
   }
+
   @include max-screen(600px){
     gap: 20px;
   }

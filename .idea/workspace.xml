@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cfcc3ff-51cc-4bb3-af62-d09c97a3f46f" name="Changes" comment="correction6" />
+    <list default="true" id="2cfcc3ff-51cc-4bb3-af62-d09c97a3f46f" name="Changes" comment="style js">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style2.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/test.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/test.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +31,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -148,6 +160,8 @@
       <workItem from="1740250354986" duration="6846000" />
       <workItem from="1740423507760" duration="729000" />
       <workItem from="1740501438634" duration="294000" />
+      <workItem from="1740504550903" duration="105000" />
+      <workItem from="1740504777087" duration="3423000" />
     </task>
     <task id="LOCAL-00001" summary="Greenshop">
       <option name="closed" value="true" />
@@ -213,7 +227,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740501657825</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="correction67">
+      <option name="closed" value="true" />
+      <created>1740505280206</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740505280206</updated>
+    </task>
+    <task id="LOCAL-00010" summary="style js">
+      <option name="closed" value="true" />
+      <created>1740508175052</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740508175052</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +257,9 @@
     <MESSAGE value="Dz11-12 correction" />
     <MESSAGE value="correction" />
     <MESSAGE value="correction6" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction6" />
+    <MESSAGE value="correction67" />
+    <MESSAGE value="style js" />
+    <option name="LAST_COMMIT_MESSAGE" value="style js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
