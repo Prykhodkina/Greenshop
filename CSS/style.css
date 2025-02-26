@@ -36,7 +36,6 @@
     margin-left: 18px;
     margin-bottom: 163px;
 }
-
 .sidebar ul li a{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
@@ -44,6 +43,8 @@
     line-height: 267%;
     color: #3d3d3d;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
 }
 .sidebar ul li a:hover {
     color: #46a358;
@@ -51,8 +52,11 @@
     font-size: 15px;
     line-height: 267%;
 }
+.sidebar span{
+    margin-right: 24px;
+}
 .size{
-
+    margin-bottom: 19px;
 }
 .card-products{
     max-width: 840px;

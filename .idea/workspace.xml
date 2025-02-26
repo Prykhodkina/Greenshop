@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cfcc3ff-51cc-4bb3-af62-d09c97a3f46f" name="Changes" comment="style3js">
+    <list default="true" id="2cfcc3ff-51cc-4bb3-af62-d09c97a3f46f" name="Changes" comment="Dz9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +160,8 @@
       <workItem from="1740423507760" duration="729000" />
       <workItem from="1740501438634" duration="294000" />
       <workItem from="1740504550903" duration="105000" />
-      <workItem from="1740504777087" duration="20905000" />
+      <workItem from="1740504777087" duration="21157000" />
+      <workItem from="1740568193465" duration="3741000" />
     </task>
     <task id="LOCAL-00001" summary="Greenshop">
       <option name="closed" value="true" />
@@ -267,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740509057209</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Dz9">
+      <option name="closed" value="true" />
+      <created>1740568011027</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740568011027</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +293,8 @@
     <MESSAGE value="style js" />
     <MESSAGE value="style2js" />
     <MESSAGE value="style3js" />
-    <option name="LAST_COMMIT_MESSAGE" value="style3js" />
+    <MESSAGE value="Dz9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dz9" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

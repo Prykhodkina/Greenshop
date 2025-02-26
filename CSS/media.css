@@ -111,13 +111,10 @@
     .box-container .box1{
         margin-top: 33px;
         margin-bottom: 33px;
-
     }
     .email-container{
         max-width: 360px;
         margin-bottom: 40px;
-        background: #46a358;
-
     }
     .input{
         max-width: 300px;
@@ -129,7 +126,6 @@
         padding: 12px 12px;
     }
     .color{
-
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -137,6 +133,7 @@
         margin-top: 16px;
         margin-bottom: 16px;
     }
+
     footer .container{
         display: inline-flex;
         flex-wrap: wrap;
