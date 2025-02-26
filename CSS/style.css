@@ -51,6 +51,9 @@
     font-size: 15px;
     line-height: 267%;
 }
+.size{
+
+}
 .card-products{
     max-width: 840px;
 }
@@ -59,7 +62,6 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 31px;
-    height: 23px;
     font-family: 'cera_proregular', sans-serif;
     font-size: 15px;
 }
@@ -93,7 +95,7 @@
     flex-wrap: wrap;
     margin-bottom: 90px;
 }
-.products h4{
+.product h4{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -101,17 +103,26 @@
     color: #3d3d3d;
     margin-bottom: 6px;
 }
-.products p {
+.product p {
     font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #46a358;
 }
+.product p span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 89%;
+    color: #a5a5a5;
+    text-decoration: line-through;
+    margin-left: 16px;
+}
+
 .product {
     margin-bottom: 70px;
-    position: relative;
 }
+
 .img .discount{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
@@ -125,6 +136,7 @@
     margin-top: 14px;
 }
 .img{
+    position: relative;
     background-color: #fbfbfb;
     margin-bottom: 12px;
     overflow: hidden;
@@ -248,10 +260,12 @@
 }
 .find-block img {
     mix-blend-mode: multiply;
+    margin-bottom: 10px;
 }
 .container .owl-carousel img{
-    width: 287px;
+    width: 289px;
     height:292px;
+
 }
 .text{
     margin-top: 37px;
@@ -259,7 +273,7 @@
     align-items: end;
 }
 .find-block h5{
-    font-family: 'cera_probold', sans-serif;
+    font-family: 'cera_problack', sans-serif;
     font-weight: 900;
     font-size: 18px;
     line-height: 133%;
@@ -285,6 +299,7 @@
     margin-bottom: 100px;
 }
 .container-blog h4{
+    font-family: 'cera_problack', sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 53%;

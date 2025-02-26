@@ -16,6 +16,7 @@
     }
     .banner article{
         max-width: 328px;
+
     }
     h1{
         font-size: 42px;
@@ -23,9 +24,131 @@
     .banner img{
         width: 230px;
         height: 208px;
+        margin-left: 65px;
     }
     .text-banner{
         margin-bottom: 16px;
     }
+    .shop-now{
+        margin-bottom: 58px;
+        text-align: center;
+    }
+    .shop-list{
+        margin: 16px 16px;
+    }
+    .sidebar {
+    display: none;
+    }
+    .topbar{
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-bottom: 16px;
+        justify-content: center;
+    }
+    .topbar ul{
+        gap: 40px;
 
+    }
+
+    .product .img{
+        max-width: 152px;
+    }
+    .product .img img{
+        width: 152px;
+        height: 152px;
+    }
+    .img .position {
+        display: block;
+        margin-left: 13px;
+    }
+    .img .discount {
+        padding: 7px 6px;
+    }
+    .pages ul{
+        justify-content: center;
+    }
+    .find-block {
+        display: block;
+        justify-content: center;
+    }
+    .find-block h5{
+        text-align: center;
+    }
+    .find-block p{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .find-m {
+        justify-content: center;
+        margin-bottom: 39px;
+    }
+    .content{
+        justify-content: center;
+    }
+    .box-container{
+        display: inline-flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        background: none;
+        text-align: center;
+        max-width: 204px;
+    }
+    .box-container p{
+         margin-right: auto;
+    }
+    .box-container .box1:after{
+        transform: rotate(0deg);
+        width: 188px;
+        left: 8px;
+        bottom: -16px;
+    }
+    .box-container .box1:before{
+        transform: rotate(0deg);
+        width: 188px;
+        left: 8px;
+        top: -16px;
+    }
+    .box-container .box1{
+        margin-top: 33px;
+        margin-bottom: 33px;
+
+    }
+    .email-container{
+        max-width: 360px;
+        margin-bottom: 40px;
+        background: #46a358;
+
+    }
+    .input{
+        max-width: 300px;
+    }
+    .email{
+        padding: 10px 56px 12px  12px;
+    }
+    .join{
+        padding: 12px 12px;
+    }
+    .color{
+
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .color img{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    footer .container{
+        display: inline-flex;
+        flex-wrap: wrap;
+        wrap-option: var();
+    }
+    .aside{
+        margin-top: 40px;
+    }
+    .aside ul {
+        margin-bottom: 32px;
+    }
+    footer .container:last-of-type .aside{
+        margin-right: 77px;
+    }
 }
