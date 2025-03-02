@@ -70,12 +70,20 @@
     .find-block {
         display: block;
         justify-content: center;
+        max-width: 360px;
     }
     .find-block h5{
         text-align: center;
     }
+    .text{
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
     .find-block p{
         text-align: center;
+        margin-left: 34px;
+        margin-right: 34px;
         margin-bottom: 24px;
     }
     .find-m {
@@ -133,7 +141,9 @@
         margin-top: 16px;
         margin-bottom: 16px;
     }
-
+    .container-blog .container{
+        display: block;
+    }
     footer .container{
         display: inline-flex;
         flex-wrap: wrap;

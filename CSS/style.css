@@ -269,7 +269,6 @@
 .container .owl-carousel img{
     width: 289px;
     height:292px;
-
 }
 .text{
     margin-top: 37px;
@@ -598,4 +597,43 @@ footer .last{
     line-height: 214%;
     color: #3d3d3d;
     text-align: center;
+
+    border-radius: 8px 8px 0 0;
+}
+.ui-accordion .ui-accordion-header{
+    padding: 20px 76px 20px 44px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    border: 1px solid #242424;
+    background-color: transparent;
+
+}
+.ui-accordion .ui-accordion-content {
+    border: 1px solid #242424;
+    border-radius: 0 0 8px 8px;
+    border-top:  8px;
+    margin-bottom: 16px;
+}
+.ui-accordion .ui-accordion-header.ui-state-active{
+    border-radius: 8px 8px 0 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+    color: black;
+}
+.ui-accordion .ui-accordion-header.ui-state-active .ui-icon {
+    transform: rotate(0deg);
+}
+.ui-icon {
+    background-image: url("https://www.limitlessx.com/cdn/shop/t/68/assets/chevron-down.svg");
+    color: black;
+    width: 32px;
+    height: 32px;
+    background-position: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    transform: rotate(-90deg);
 }
