@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cfcc3ff-51cc-4bb3-af62-d09c97a3f46f" name="Changes" comment="Dz9">
+    <list default="true" id="2cfcc3ff-51cc-4bb3-af62-d09c97a3f46f" name="Changes" comment="Dz13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/banner.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style2.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style2.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image16.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phorm.html" beforeDir="false" afterPath="$PROJECT_DIR$/phorm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/toria/OneDrive/Робочий стіл/Greenshop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/toria/Greenshop&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -166,7 +169,11 @@
       <workItem from="1740504550903" duration="105000" />
       <workItem from="1740504777087" duration="21157000" />
       <workItem from="1740568193465" duration="16417000" />
-      <workItem from="1740834354269" duration="17853000" />
+      <workItem from="1740834354269" duration="74638000" />
+      <workItem from="1741350838011" duration="3381000" />
+      <workItem from="1741363299099" duration="3514000" />
+      <workItem from="1741600078283" duration="4729000" />
+      <workItem from="1741614290605" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="Greenshop">
       <option name="closed" value="true" />
@@ -288,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740572143350</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Dz13">
+      <option name="closed" value="true" />
+      <created>1740936052762</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740936052762</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +322,8 @@
     <MESSAGE value="style2js" />
     <MESSAGE value="style3js" />
     <MESSAGE value="Dz9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dz9" />
+    <MESSAGE value="Dz13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dz13" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -38,9 +38,6 @@ header {
 }
 header a img {
   display: block;
-  -webkit-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  transform: rotate(30deg);
 }
 header .container {
   border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);

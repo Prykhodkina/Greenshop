@@ -209,7 +209,7 @@
     border: 1px solid #e5e5e5;
     border-radius: 4px;
     align-items: center;
-    padding: 10px 9px;
+    padding: 10px 10px;
     color: #3d3d3d;
     transition: width 3s;
     transition-delay: 1s;
@@ -230,7 +230,7 @@
 
 .find-m {
     border-radius: 6px;
-    padding: 9px 47px;
+    padding: 9px 27px;
     font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -242,6 +242,7 @@
     max-width: 100%;
     background: #46a358;
 }
+
 .find-m:hover{
     background-color:#fbfbfb;
     cursor: pointer;
@@ -265,11 +266,10 @@
 .find-block img {
     mix-blend-mode: multiply;
     margin-bottom: 10px;
-}
-.container .owl-carousel img{
     width: 289px;
     height:292px;
 }
+
 .text{
     margin-top: 37px;
     margin-bottom: 46px;
@@ -504,7 +504,7 @@ footer .container{
     margin-left: 23px;
 }
 .address{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 9px;
     margin-right: 19px;
@@ -531,7 +531,7 @@ footer .container{
     margin-top: 8px;
 }
 .phone{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
     margin-right: 19px;
@@ -587,9 +587,7 @@ footer .container:last-of-type .aside{
     color: #3d3d3d;
     margin-bottom: 7px;
 }
-.aside img {
-    mix-blend-mode: multiply;
-}
+
 footer .last{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
@@ -597,7 +595,6 @@ footer .last{
     line-height: 214%;
     color: #3d3d3d;
     text-align: center;
-
     border-radius: 8px 8px 0 0;
 }
 .ui-accordion .ui-accordion-header{
@@ -608,7 +605,6 @@ footer .last{
     margin-bottom: 16px;
     border: 1px solid #242424;
     background-color: transparent;
-
 }
 .ui-accordion .ui-accordion-content {
     border: 1px solid #242424;
@@ -625,6 +621,12 @@ footer .last{
 .ui-accordion .ui-accordion-header.ui-state-active .ui-icon {
     transform: rotate(0deg);
 }
+.ui-state-active .ui-icon {
+    background-image: url("https://www.limitlessx.com/cdn/shop/t/68/assets/chevron-down.svg");
+}
+.ui-state-hover .ui-icon{
+    background-image: url("https://www.limitlessx.com/cdn/shop/t/68/assets/chevron-down.svg");
+}
 .ui-icon {
     background-image: url("https://www.limitlessx.com/cdn/shop/t/68/assets/chevron-down.svg");
     color: black;
@@ -636,4 +638,120 @@ footer .last{
     top: 22px;
     right: 20px;
     transform: rotate(-90deg);
+}
+.nav-but-wrap{
+    display: none;
+}
+.ui-accordion-header .ui-corner-top .ui-state-default .ui-accordion-icons .ui-accordion-header-active .ui-state-active .ui-state-hover{
+    cursor: pointer;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    display: none;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+
+
+.carousel {
+    position: relative;
+}
+.carousel__item {
+    position: relative;
+    height: 35rem;
+    width: 25rem;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1rem 4rem rgba(0,0,0,.5);
+    position: absolute;
+    transform: translate(-50%,-50%) scale(.1);
+    z-index: 0;
+    transition: all .2s linear;
+}
+.carousel__item img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.carousel__item--main {
+    transform: translate(-50%,-50%) scale(1);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.carousel__item--left {
+    transform: translate(-110%,-50%) scale(.9);
+    z-index: 1;
+}
+.carousel__item--right {
+    transform: translate(10%,-50%) scale(.9);
+    z-index: 1;
+}
+.carousel__item--left img, .carousel__item--right img {
+    filter: grayscale(80%);
+}
+
+.carousel__item--right:hover {
+    transform: translate(10%,-50%) scale(1.2);
+    z-index: 3;
+    cursor: pointer;
+}
+.carousel__item--left:hover {
+    transform: translate(-110%,-50%) scale(1.2);
+    z-index: 3;
+    cursor: pointer;
+}
+.carousel__item--main:hover {
+    transform: translate(-50%,-50%) scale(1.2);
+}
+.carousel__item:hover > .carousel__text {
+    opacity: 1;
+}
+.carousel__item:hover img {
+    filter: grayscale(0%);
+}
+
+.carousel__text {
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity .2s;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 2rem 1rem;
+    color: #fff;
+}
+
+
+.carousel__btns {
+    position: absolute;
+    transform: translate(-50%, 22rem);
+    display: flex;
+    gap: 2rem;
+}
+.carousel__btn {
+    background-color: transparent;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border:1px solid currentColor;
+    color: #fff;
+    cursor: pointer;
+}
+.carousel__btn svg {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.carousel__btn:hover {
+    color: #aaa;
 }
